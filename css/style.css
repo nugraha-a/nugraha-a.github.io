@@ -386,6 +386,11 @@ main {
   color: #535461;
 }
 
+.info-cert-inner:hover{
+  transition: 0.3s all;
+  transform: rotate(3.4deg);
+}
+
 .info-cert-inner-1{
   max-width: 340px;
   font-size: .9em;
