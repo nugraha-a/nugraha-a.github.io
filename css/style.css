@@ -605,7 +605,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 369px) {
+@media only screen and (max-width: 370px) {
   nav ul li.nav-brand{
     white-space: nowrap;
     font-size: 0.8em;
