@@ -37,6 +37,7 @@ nav ul {
 
 nav ul li {
   list-style-type: none;
+  white-space: nowrap;
 }
 
 nav ul li.nav-link {
@@ -395,6 +396,7 @@ main {
   max-width: 340px;
   font-size: .9em;
   padding: 20px;
+  white-space: nowrap;
 }
 
 footer {
@@ -419,6 +421,18 @@ footer {
 
 .margin-top-2 {
   margin-top: 2em;
+}
+
+.display-block{
+  display: block;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.text-dec-underline{
+  text-decoration: underline;
 }
 
 .bg-dark {
@@ -510,6 +524,7 @@ footer {
   }
   .info-cert-inner-1{
     max-width: 100%;
+    overflow: auto;
   }
 }
 
@@ -590,7 +605,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 369px) {
   nav ul li.nav-brand{
     white-space: nowrap;
     font-size: 0.8em;
